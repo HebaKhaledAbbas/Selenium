@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-17T22:36:54 EET" name="GUIautomation" finished-at="2024-07-17T22:37:43 EET" duration-ms="48802">
+    <groups>
+    </groups>
+    <test started-at="2024-07-17T22:36:54 EET" name="Test" finished-at="2024-07-17T22:37:43 EET" duration-ms="48802">
+      <class name="tests.TestOpenNewAccount">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:tests.TestOpenNewAccount@7582ff54]" started-at="2024-07-17T22:37:04 EET" name="testSetup" finished-at="2024-07-17T22:37:10 EET" duration-ms="6297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="OpenNewAccount()[pri:0, instance:tests.TestOpenNewAccount@7582ff54]" started-at="2024-07-17T22:37:10 EET" name="OpenNewAccount" description="Test to verify opening new account" finished-at="2024-07-17T22:37:11 EET" duration-ms="1321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenNewAccount -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestOpenNewAccount@7582ff54]" started-at="2024-07-17T22:37:11 EET" name="closeBrowser" finished-at="2024-07-17T22:37:12 EET" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TestOpenNewAccount -->
+      <class name="tests.TestSortByPostalCode">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:tests.TestSortByPostalCode@61fe30]" started-at="2024-07-17T22:37:26 EET" name="testSetup" finished-at="2024-07-17T22:37:32 EET" duration-ms="6129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="SortDescendingByPostalCode()[pri:0, instance:tests.TestSortByPostalCode@61fe30]" started-at="2024-07-17T22:37:32 EET" name="SortDescendingByPostalCode" description="Test to verify sorting descending by postalcode" finished-at="2024-07-17T22:37:33 EET" duration-ms="1620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortDescendingByPostalCode -->
+        <test-method signature="SortAscendingByPostalCode()[pri:0, instance:tests.TestSortByPostalCode@61fe30]" started-at="2024-07-17T22:37:33 EET" name="SortAscendingByPostalCode" description="Test to verify sorting ascending by postalcode" finished-at="2024-07-17T22:37:33 EET" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SortAscendingByPostalCode -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestSortByPostalCode@61fe30]" started-at="2024-07-17T22:37:33 EET" name="closeBrowser" finished-at="2024-07-17T22:37:34 EET" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TestSortByPostalCode -->
+      <class name="tests.TestCreateNewTransaction">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:tests.TestCreateNewTransaction@c9d0d6]" started-at="2024-07-17T22:37:34 EET" name="testSetup" finished-at="2024-07-17T22:37:40 EET" duration-ms="5905" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="TestCreateTransaction()[pri:0, instance:tests.TestCreateNewTransaction@c9d0d6]" started-at="2024-07-17T22:37:40 EET" name="TestCreateTransaction" description="Test to verify transaction creation" finished-at="2024-07-17T22:37:42 EET" duration-ms="1999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCreateTransaction -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestCreateNewTransaction@c9d0d6]" started-at="2024-07-17T22:37:42 EET" name="closeBrowser" finished-at="2024-07-17T22:37:43 EET" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TestCreateNewTransaction -->
+      <class name="tests.TestSearchAndDeleteExistingCustomer">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:tests.TestSearchAndDeleteExistingCustomer@3abada5a]" started-at="2024-07-17T22:37:12 EET" name="testSetup" finished-at="2024-07-17T22:37:18 EET" duration-ms="6121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="SearchForCustomer()[pri:0, instance:tests.TestSearchAndDeleteExistingCustomer@3abada5a]" started-at="2024-07-17T22:37:18 EET" name="SearchForCustomer" description="Test to verify search on an exist customer by firstname" finished-at="2024-07-17T22:37:20 EET" duration-ms="1387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchForCustomer -->
+        <test-method signature="TestDeleteCustomer()[pri:0, instance:tests.TestSearchAndDeleteExistingCustomer@3abada5a]" started-at="2024-07-17T22:37:20 EET" name="TestDeleteCustomer" description="Test to verify Delete Customer" finished-at="2024-07-17T22:37:25 EET" duration-ms="5101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestDeleteCustomer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestSearchAndDeleteExistingCustomer@3abada5a]" started-at="2024-07-17T22:37:25 EET" name="closeBrowser" finished-at="2024-07-17T22:37:26 EET" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TestSearchAndDeleteExistingCustomer -->
+      <class name="tests.TestCreateCustomer">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:tests.TestCreateCustomer@3bd323e9]" started-at="2024-07-17T22:36:54 EET" name="testSetup" finished-at="2024-07-17T22:37:02 EET" duration-ms="7819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method signature="CreateCustomer()[pri:0, instance:tests.TestCreateCustomer@3bd323e9]" started-at="2024-07-17T22:37:02 EET" name="CreateCustomer" description="Test to verify customer creation" finished-at="2024-07-17T22:37:03 EET" duration-ms="1306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCustomer -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.TestCreateCustomer@3bd323e9]" started-at="2024-07-17T22:37:03 EET" name="closeBrowser" finished-at="2024-07-17T22:37:04 EET" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TestCreateCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- GUIautomation -->
+</testng-results>
